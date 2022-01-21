@@ -9,6 +9,12 @@ a fully customizable dashboard.
 * **Database**: PostgreSQL
 * **CSS Library**: Boostrap V5
 
+**Starting the project**
+1. Bundle install
+2. rails db:setup
+3. You can either run bin/dev to start with Procfile or run separately with rails s and yarn build --watch
+
+
 **Installed gems**
 * Annotate
 * ActiveStorage
