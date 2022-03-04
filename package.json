@@ -1,16 +1,16 @@
 {
   "name": "app",
   "private": "true",
-  "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds"
-  },
   "dependencies": {
-    "@hotwired/stimulus": "^3.0.0-beta.2",
-    "@hotwired/turbo-rails": "^7.0.0-rc.3",
+    "@hotwired/stimulus": "^3.0.1",
+    "@hotwired/turbo-rails": "^7.1.1",
     "bootstrap": "^5.1.1",
     "bootstrap-icons": "^1.5.0",
-    "esbuild": "^0.12.26",
+    "esbuild": "^0.14.24",
     "perfect-scrollbar": "^1.5.2",
     "smooth-scrollbar": "^8.6.3"
+  },
+  "scripts": {
+    "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds"
   }
 }

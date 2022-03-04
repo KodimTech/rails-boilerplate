@@ -6,11 +6,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.1'
 
 gem 'discard', '~> 1.2'
-gem 'hotwire-rails'
+# gem 'hotwire-rails'
 gem 'jsbundling-rails'
 gem 'pagy', '~> 4.11'
 gem 'pundit'
 gem 'sorcery', '~> 0.16.1'
+gem 'stimulus-rails'
+gem 'turbo-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
